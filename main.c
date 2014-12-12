@@ -2,7 +2,7 @@
 #include "unistd.h"
 
 int main() {
-  sleep(3);
+  usleep(500000);
   printf("test1:PASS\ntest2:FAIL\n");
   return 0;
 }
